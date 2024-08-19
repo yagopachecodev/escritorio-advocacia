@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escritório de Advocacia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+    <header>
+        <div class="container">
+            <div class="card-perfil">
+                <img class="logo" src="imagens/logo.jpeg" alt="logo da advocacia">
+
+                
+            </div>
+            
+            <h1>Escritório de Advocacia</h1>
+            <nav>
+                <ul>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#advogados">Advogados</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <input type="checkbox" class="checkbox" id="chk">
+                <label class="label" for="chk">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <div class="ball"></div>
+        
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicos">
+        <div class="container">
+            <h2>Serviços Oferecidos</h2>
+            <div class="servicos-lista">
+                <div class="servico">
+                    <img src="imagens/servico1.jpeg" alt="Serviço 1">
+                    <h3>Consultoria Jurídica</h3>
+                    <p>Assessoria completa para empresas e indivíduos.</p>
+                </div>
+                <div class="servico">
+                    <img src="imagens/servico2.jpeg" alt="Serviço 2">
+                    <h3>Litígios e Contencioso</h3>
+                    <p>Representação em processos judiciais e administrativos.</p>
+                </div>
+                <div class="servico">
+                    <img src="imagens/servico3.jpeg" alt="Serviço 3">
+                    <h3>Direito Trabalhista</h3>
+                    <p>Assessoria em questões trabalhistas e negociações.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advogados">
+        <div class="container">
+            <h2>Nossos Advogados</h2>
+            <div class="advogados-lista">
+                <div class="advogado">
+                    <img src="imagens/advogado1.jpeg" alt="Advogado 1">
+                    <h3>Dra. Vanessa Silva</h3>
+                    <p>Especialista em direito empresarial e comercial.</p>
+                </div>
+                <div class="advogado">
+                    <img src="imagens/advogado2.jpeg" alt="Advogado 2">
+                    <h3>Dr. Lucas Oliveira</h3>
+                    <p>Especialista em direito trabalhista e previdenciário.</p>
+                </div>
+                <div class="advogado">
+                    <img src="imagens/advogado3.jpeg" alt="Advogado 3">
+                    <h3>Dr. Pedro Santos</h3>
+                    <p>Especialista em direito civil e família.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Formulário para contato</h2>
+            <form id="formContato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yago Pacheco | Desenvolvedor web | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+</html>
